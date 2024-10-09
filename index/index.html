@@ -40,25 +40,50 @@
     <h1><strong>Nuovo libro</strong></h1>
 
     <form>
+
         <div class="mb-3">
           <label for="nome-autore" class="form-label">Inserisci il nome dell'autore</label>
           <input type="Nome" class="form-control" id="exampleInputAutore1" placeholder="Nome Autore">
         </div>
+
         <div class="mb-3">
           <label for="Cognom-eautore" class="form-label">Inserisci il cognome dell'autore</label>
           <input type="cognome.autore" class="form-control" id="exampleInputCognomeAutore" placeholder="Cognome Autore">
         </div>
+
         <div class="mb-3">
             <label for="disabledTextInput" class="form-label">Inserisci il titolo del libro</label>
             <input type="text" id="disabledTextInput" class="form-control" placeholder="Titolo">
             <div id="emailHelp" class="form-text">Titolo versione italiana</div>
-          </div>
-          <select class="form-select" aria-label="Default select example">
-            <option selected>Scegli il genere</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
-          </select>
+        </div>
+
+            <div class="mb-3">
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>Genere</option>
+                    <option value="1">Thriller</option>
+                    <option value="2">Romantico</option>
+                    <option value="3">Avventura</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label for="anno.libro" class="form-label">Anno di pubblicazione</label>
+                <input type="Anno-libro" class="form-control" placeholder="Inserisci l'anno">
+            </div>
+
+            <div class="mb-3">
+                <label for="ISBN#" class="form-label">ISBN#</label>
+                <input type="ISBN#" class="form-control" placeholder="Inserisci il codice ISBN#">
+            </div>
+            <div class="mb-3">
+                <label for="Annotazionilibro" class="form-label">Note</label>
+                <textarea class="form-control" id="Note-libro" placeholder="Inserisci eventuali note sul libro"></textarea>
+              </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Disponibile anche in digitale</label>
+            </div>
+              <a href="../index.html"><button type="aggiungi" class="btn btn-primary">Aggiungi libro</button></a>
     </form>
 </main>
 
